@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+# DAO
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## About
+This project demonstrates an implementation of a DAO where users can create or vote on proposals to buy an NFT from an NFT Marketplace.
+The power to vote is determined by the number of CryptoDevsNFTs held by users.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+## Instructions to run
+```
+git clone https://github.com/ericselvig/DAO
+cd DAO
+npm install
+npx hardhat compile
 ```
